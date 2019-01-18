@@ -1,0 +1,473 @@
+<% include layout.ejs %>
+<!--================Header Menu Area =================-->
+
+<!--================Home Banner Area =================-->
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+		<div class="container">
+			<div class="banner_content text-center">
+				<h2>Bolaji Mubarak</h2>
+				<div class="page_link">
+					<a href="/">Home</a>
+					<a href="/profile/2389">Profile</a>
+				</div>
+			</div>
+		</div>
+    </div>
+</section>
+<!--================End Home Banner Area =================-->
+
+<!--================ Profile showcase Area =================-->
+<div class="product_image_area">
+	<div class="container">
+		<div class="row s_product_inner">
+			<div class="col-lg-6">
+				<div class="s_product_img">
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="/img/product/single-product/s-product-1.jpg" alt="First slide">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 offset-lg-1">
+				<div class="s_product_text">
+					<h3>Adekunle Adebayo</h3>
+					<h4>42 Posts</h4>
+					<ul class="list">
+						<li><a class="active" href="#"><span>Email</span> : adekunleadebayo2000@gmail.com</a></li>
+						<li><a href="#"><span>Phone No</span> : +234902334132</a></li>
+					</ul>
+					<p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for something that can make your interior look awesome, and at the same time give you the pleasant warm feeling during the winter.</p>
+					
+					<div class="card_area">
+						<a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a>
+						<a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--================ Profile showcase Area =================-->
+
+<!--================ Edit Profile Area =================-->
+<section class="product_description_area">
+	<div class="container">
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item">
+			<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Wall</a>
+			</li>
+			
+			<li class="nav-item">
+			<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Favorites</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Posts</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" id="follower-tab" data-toggle="tab" href="#follower" role="tab" aria-controls="follower" aria-selected="false">Community</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+				<h3>Daniel's Wall</h3>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="comment_list">
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Daniel Abiola</h4>
+										<h5>11th Jan, 2019 at 05:26 am</h5>
+										<span class="reply_btn">Follow</span>
+									</div>
+								</div>
+								<p id="8923text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								
+							</div>
+							<span onclick="viewComment('90239')" id="90239" class="viewCommentbut">View comments</span>
+							<br><br>
+							<div class="review_item reply" id="90239reply">
+								<h3>Comments</h3>
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-2.png" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#"><h4>Bolaji Taiwo</h4></a>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								<div class="review_box">
+								<br>
+								<h5>Give a comment</h5>
+								<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name3" name="comment" placeholder="Leave a reply">
+										</div>
+									</div>
+									
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn submit_btn">Reply</button>
+									</div>
+								</form>
+								<br>
+							</div>
+							</div>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+									
+										<div class="media-body">
+										<h4>Adetunji Jibola</h4>
+										<h5>02th Mar, 2011 at 04:56 pm</h5>
+										<span class="reply_btn">Follow</span>
+									</div>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+					<!-- Dim -->
+					<!-- Write on your wall -->
+					<div class="col-lg-6">
+						<div class="review_box">
+							<h4>Write on Daniel's wall</h4>
+							<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+								<div class="col-md-12">
+									<div class="form-group">
+										<input type="hidden" class="form-control" id="name3" name="author" value="Current_user">
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="form-group">
+										<textarea class="form-control" name="body" id="message" rows="1" placeholder="Write your mind"></textarea>
+									</div>
+								</div>
+								<div class="col-md-12 text-right">
+									<input type="submit" value="Write" class="btn submit_btn">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+				<h3>Daniel's Favourites</h3>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="comment_list">
+							
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Successful business by Yemi Sholade</h4>
+										<h5>Quote (Success)</h5>
+									</div>
+								</div>
+								<p id="8923text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								
+							</div>
+							<span onclick="viewComment('90259')" id="90259" class="viewCommentbut">View comments</span>
+							<br><br>
+							<div class="review_item reply" id="90259reply">
+								<h3>Comments</h3>
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-2.png" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#"><h4>Bolaji Taiwo</h4></a>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								<div class="review_box">
+								<br>
+								<h5>Give a comment</h5>
+								<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name3" name="comment" placeholder="Leave a reply">
+										</div>
+									</div>
+									
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn submit_btn">Reply</button>
+									</div>
+								</form>
+								<br>
+							</div>
+							</div>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+									
+										<h4>Brain as a mole by Kemi Aiyedun</h4>
+										<h5>Fact (Brain)</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="comment_list">
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Successful business by Gbenga Tolulope</h4>
+										<h5>Quote (Success)</h5>
+									</div>
+								</div>
+								<p id="8923text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								
+							</div>
+							<span onclick="viewComment('91238')" id="91238" class="viewCommentbut">View comments</span>
+							<br><br>
+							<div class="review_item reply" id="91232reply">
+								<h3>Comments</h3>
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-2.png" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#"><h4>Bolaji Taiwo</h4></a>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+										<span class="reply_btn">Follow</span>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								<div class="review_box">
+								<br>
+								<h5>Give a comment</h5>
+								<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name3" name="comment" placeholder="Leave a reply">
+										</div>
+									</div>
+									
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn submit_btn">Reply</button>
+									</div>
+								</form>
+								<br>
+							</div>
+							</div>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+									
+										<h4>Brain as a mole by Remi Lawal</h4>
+										<h5>Fact (Brain)</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="follower" role="tabpanel" aria-labelledby="follower-tab">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="comment_list">
+							<h3>Followers</h3>
+							<br>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Seyi Lasisi</h4>
+										<h5>Date of Followship:</h5>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+										<span class="reply_btn">Follow</span>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+							<br>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Alan Turing</h4>
+										<h5>Date of Followship:</h5>
+										<h5>11th July, 2018 at 09:06 am</h5>
+										<span class="reply_btn">Follow</span>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="comment_list">
+							<h3>Following</h3>
+							<br>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Seyi Lasisi</h4>
+										<h5>Date of Followship:</h5>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+										<span class="reply_btn">Unfollow</span>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+							<br>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Alan Turing</h4>
+										<h5>Date of Followship:</h5>
+										<h5>11th July, 2018 at 09:06 am</h5>
+										<span class="reply_btn">UnFollow</span>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="comment_list">
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-1.png" alt="">
+									</div>
+									<div class="media-body">
+										<h4>Successful business</h4>
+										<h5>Quote (Success)</h5>
+									</div>
+								</div>
+								<p id="8923text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								
+							
+							<span onclick="viewComment('90238')" id="90238" class="viewCommentbut">View comments</span>
+							<br><br>
+							<div class="review_item reply" id="90238reply">
+								<h3>Comments</h3>
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-2.png" alt="">
+									</div>
+									<div class="media-body">
+										<a href="#"><h4>Bolaji Taiwo</h4></a>
+										<h5>12th Feb, 2017 at 05:56 pm</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+								<div class="review_box">
+								<br>
+								<h5>Give a comment</h5>
+								<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+									<div class="col-md-12">
+										<div class="form-group">
+											<input type="text" class="form-control" id="name3" name="comment" placeholder="Leave a reply">
+										</div>
+									</div>
+									
+									<div class="col-md-12 text-right">
+										<button type="submit" value="submit" class="btn submit_btn">Reply</button>
+									</div>
+								</form>
+								<br>
+								</div>
+							</div>
+							</div>
+							<div class="review_item">
+								<div class="media">
+									<div class="d-flex">
+										<img src="/img/product/single-product/review-3.png" alt="">
+									</div>
+									<div class="media-body">
+									
+										<h4>Brain as a mole</h4>
+										<h5>Fact (Brain)</h5>
+									</div>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--================End Product Description Area =================-->
+
+<!--================ start footer Area  =================-->	
+<% include footer.ejs %>
+<!--================ End footer Area  =================-->
+
+
+
+<!-- <script src="vendors/flipclock/timer.js"></script> -->
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/popper.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/stellar.js"></script>
+<script src="/vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="/vendors/isotope/isotope-min.js"></script>
+<script src="/vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="/js/jquery.ajaxchimp.min.js"></script>
+<script src="/js/mail-script.js"></script>
+<script src="/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="/vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="/vendors/counter-up/jquery.counterup.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/mail-script.js"></script>
+<!--================ End footer Area  =================-->
+
+
+<!-- Dac javascript -->
+<script type="text/javascript" src="/js/dac.js"></script>
+
